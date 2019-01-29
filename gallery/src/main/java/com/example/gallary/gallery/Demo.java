@@ -36,14 +36,17 @@ public class Demo
      @RequestMapping(value = "/getStudentDetails/{name}")
      public Student getStudentDetails(@PathVariable(name = "name") String name)
      {
-		 System.out.println("Inside MyRestController::backend...");
- 
-        String serverPort = environment.getProperty("local.server.port");
+		 System.out.println("Inside MyRestController::backendddddddd...");
+
+         System.out.println("Inside MyRestController::backend...coooooooooooolll2");
+
+
+         System.out.println("Inside MyRestController::backend...coooooooooooo55555");
+
+         String serverPort = environment.getProperty("local.server.port");
  
         System.out.println("Port : " + serverPort);
          return new Student(name, "Pune", "MCA");
      }
-
-
 
 }
